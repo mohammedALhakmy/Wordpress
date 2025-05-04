@@ -1,9 +1,9 @@
 <!doctype html>
 <html <?php language_attributes();?>>
 <head>
-    <meta charset="<?php echo get_bloginfo('charset'); ?>">?>">
+    <meta charset="<?php echo get_bloginfo('charset'); ?>">
     <title><?php echo wp_title() ?? get_bloginfo('name');?></title>
-    <link rel="pingback" href="<?php echo get_bloginfo('pingback_url'); ?>">?>">
+    <link rel="pingback" href="<?php echo get_bloginfo('pingback_url'); ?>">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
