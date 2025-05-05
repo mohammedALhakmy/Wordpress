@@ -9,8 +9,11 @@ function developer_add_styles()
 
 function developer_add_scripts()
 {
+    wp_deregister_script('jquery');
+    wp_register_script('jquery', includes_url('/js/jquery/jquery.js') , false, '', true);
+    wp_enqueue_script('jquery');
     wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), false, true);
-    wp_enqueue_script('main-js', get_template_directory_uri() . '/js/main.js', array('jquery'), false, true);
+    wp_enqueue_script('main-js', get_template_directory_uri() . '/js/main.js', array(), false, true);
 
 }
 
