@@ -1,7 +1,7 @@
-<?php //get_header();?>
+<?php echo get_header();?>
 
 This Theme Developer Mohammed
 
 <?php echo get_template_directory_uri() . '/css/bootstrap.min.css'; ?>
 
-<?php //get_footer();
+<?php echo get_footer();
