@@ -5,6 +5,7 @@ function developer_add_styles()
 {
     wp_enqueue_style('my-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');
     wp_enqueue_style('font-awesome', get_template_directory_uri() . '/css/font-awesome.min.css');
+    wp_enqueue_style('main', get_template_directory_uri() . '/css/main.css');
 }
 
 function developer_add_scripts()
