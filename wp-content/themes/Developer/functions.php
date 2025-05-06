@@ -22,7 +22,10 @@ add_action('wp_enqueue_scripts', 'developer_add_scripts');
 add_action('wp_enqueue_scripts', 'developer_add_styles');
 
 function developer_register_custom_menu(){
-    register_nav_menu("bootstrap-menu",__('Bootstrap Menu'));
+    register_nav_menus(array(
+        "bootstrap-menu"=>'Bootstrap Menu',
+        "footer-menu"=>'Footer Menu',
+        ));
 }
 add_action('init', 'developer_register_custom_menu');
 
