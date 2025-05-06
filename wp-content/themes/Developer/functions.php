@@ -1,6 +1,5 @@
 <?php
 
-require_once ('wp-bootstrap-navwalker.php');
 function developer_add_styles()
 {
     wp_enqueue_style('my-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');
