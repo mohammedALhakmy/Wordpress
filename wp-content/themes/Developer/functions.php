@@ -25,3 +25,5 @@ function developer_register_custom_menu(){
     register_nav_menu("bootstrap-menu",__('Bootstrap Menu'));
 }
 add_action('init', 'developer_register_custom_menu');
+
+wp_nav_menu();
