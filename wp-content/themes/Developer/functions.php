@@ -1,6 +1,6 @@
 <?php
 
-
+require_once ('wp-bootstrap-navwalker.php');
 function developer_add_styles()
 {
     wp_enqueue_style('my-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');
@@ -31,8 +31,11 @@ add_action('init', 'developer_register_custom_menu');
 
 function developer_bootstrap_menu(){
     wp_nav_menu([
-        'theme-location' => 'bootstrap-menu',
-        'menu_class' => 'nav navbar-nav navbar-right'
+        'theme-location'         => 'bootstrap-menu',
+        'menu_class'             => 'nav navbar-nav navbar-right',
+        'container'              => false,
+        'depth'                  => 2,
+        'walker'                 => new wp_bootstrap_navwalker()
     ]);
 }
 {
