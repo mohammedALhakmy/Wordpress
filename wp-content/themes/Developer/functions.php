@@ -35,7 +35,7 @@ function developer_bootstrap_menu(){
         'menu_class'             => 'nav navbar-nav navbar-right',
         'container'              => false,
         'depth'                  => 2,
-        'walker'                 => new wp_bootstrap_navwalker()
+//        'walker'                 => new wp_bootstrap_navwalker()
     ]);
 }
 {
