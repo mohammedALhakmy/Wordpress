@@ -32,7 +32,7 @@ add_action('init', 'developer_register_custom_menu');
 function developer_bootstrap_menu(){
     wp_nav_menu([
         'theme-location' => 'bootstrap-menu',
-        'menu_class' => 'nav navbar-nav'
+        'menu_class' => 'nav navbar-nav navbar-right'
     ]);
 }
 {
