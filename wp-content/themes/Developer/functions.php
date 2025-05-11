@@ -1,5 +1,6 @@
 <?php
 
+add_theme_support('post-thumbnails');
 function developer_add_styles()
 {
     wp_enqueue_style('my-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');
