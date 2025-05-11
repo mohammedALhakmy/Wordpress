@@ -6,8 +6,23 @@ body{
 /* End Main Rulez */
 
 /*Start Posts*/
+.main-post{
+    padding: 15px;
+    background-color: #FFF;
+    border: 1px solid #d8d8d8;
+    margin-bottom: 10px;
 
-
+}
+.main-post h3{
+    margin: 0 0 20px;
+    font-weight: bold;
+    color: #777;
+    letter-spacing: -1px;
+}
+.main-post img{
+    display: block;
+    margin: 10px 0 10px;
+}
 /*End Posts */
 
 /* Start footer*/
